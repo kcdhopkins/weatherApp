@@ -10,7 +10,7 @@ function Header(props){
         padding: "5px"
     }
     return (<div style={headerStyle}>
-                <span>Current Forcast</span>
+                <span>Current Forecast</span>
                 <span>Slidell, LA</span>
             </div>);
 }

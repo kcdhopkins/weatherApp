@@ -31,7 +31,7 @@ function WeatherBody(props){
     const low = props.wObj.main.temp_min;
     return(
             <div id="weatherBody" style ={weatherBodyStyle}>
-                <span style={spanStyle}><img id ="sun" src={ weather === 'Clear' ? Clear : weather === 'Clouds' ? Clouds : Rain} style={imgStyle}></img></span>
+                <span style={spanStyle}><img id ="sun" src={ weather === 'Clear' ? Clear : weather === 'Clouds' ? Clouds : Rain} style={imgStyle} alt="weatherimage"></img></span>
                 <span style ={spanSizeStyle}>Now: {now}</span>
                 <span style ={spanSizeStyle}>High: {high}</span>
                 <span style ={spanSizeStyle}>Low: {low}</span>
